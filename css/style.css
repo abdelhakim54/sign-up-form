@@ -118,10 +118,15 @@ label {
 }
 
 input {
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     height: 20px;
     width: 50%;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
 }
 
 fieldset{
@@ -153,7 +158,3 @@ button{
 }
 
 /* everything is done */
-
-/* *{
-    border: 1px solid blue ;
-} */
