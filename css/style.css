@@ -125,9 +125,14 @@ input {
     font-size: 0.7rem;
 }
 
+input[type="text"]{
+    text-transform: capitalize;
+}
+
 input:focus{
     outline: none;
     border-color: blue;
+    box-shadow: 1px 2px lightgray ;
 }
 
 fieldset{
