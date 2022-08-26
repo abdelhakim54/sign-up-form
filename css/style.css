@@ -168,3 +168,13 @@ button:hover{
 }
 
 /* everything is done */
+.error{
+    border-color: red;
+}
+
+span#check-pass{
+    color: red;
+    width: 50%;
+    font-size: 0.5rem;
+    text-align: right;
+}
